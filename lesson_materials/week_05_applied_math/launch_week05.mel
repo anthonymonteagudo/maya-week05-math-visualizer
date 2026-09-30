@@ -1,0 +1,1 @@
+python("import os, runpy, maya.utils; maya.utils.executeDeferred(lambda: runpy.run_path(os.path.join(os.environ['WEEK05_TOOL_DIR'], 'launch_startup.py'), run_name='__main__'))");
